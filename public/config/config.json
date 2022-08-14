@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
-  "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
+  "CONTRACT_ADDRESS": "0x8279d852DEF09F22bd52D0211f496a4E4bcBE76D",
+  "SCAN_LINK": "https://bscscan.com/address/0x8279d852DEF09F22bd52D0211f496a4E4bcBE76D#writeContract",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Binance",
+    "SYMBOL": "BNB",
+    "ID": 56
   },
-  "NFT_NAME": "Nerdy Coder Clones",
-  "SYMBOL": "NCC",
-  "MAX_SUPPLY": 1000,
-  "WEI_COST": 75000000000000000,
-  "DISPLAY_COST": 0.075,
+  "NFT_NAME": "Slurry DAO Merch",
+  "SYMBOL": "SLRYMRCH",
+  "MAX_SUPPLY": 3,
+  "WEI_COST": 500000000000,
+  "DISPLAY_COST": 0.0000005,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE": "NFTRade",
   "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
   "SHOW_BACKGROUND": true
 }

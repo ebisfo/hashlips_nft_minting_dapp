@@ -76,9 +76,9 @@ export const StyledLogo = styled.img`
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
+  border: 4px solid var(--secondary);
   background-color: var(--accent);
-  border-radius: 100%;
+  border-radius: 10%;
   width: 200px;
   @media (min-width: 900px) {
     width: 250px;
@@ -162,8 +162,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 1) {
+      newMintAmount = 1;
     }
     setMintAmount(newMintAmount);
   };
@@ -216,7 +216,7 @@ function App() {
               backgroundColor: "var(--accent)",
               padding: 24,
               borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              border: "4px solid var(--secondary)",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
@@ -270,7 +270,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
+                  Excluding gas fees (practically free!).
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -386,9 +386,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
-            Once you make the purchase, you cannot undo this action.
+            Hello Slurry, make sure you are connected to the right network (
+            {CONFIG.NETWORK.NAME} Mainnet) and the correct address.
+            All sales are final, you are writing to the blockchain afterall!
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
@@ -397,9 +397,9 @@ function App() {
               color: "var(--primary-text)",
             }}
           >
-            We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
-            successfully mint your NFT. We recommend that you don't lower the
-            gas limit.
+            We  set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
+            successfully mint your NFT. Don't lower the
+            gas limit so your transaction goes through!
           </s.TextDescription>
         </s.Container>
       </s.Container>

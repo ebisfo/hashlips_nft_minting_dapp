@@ -95,8 +95,8 @@ Now you will need to create and change the `public/favicon.ico`, `public/logo192
 Remember to update the title and description the `public/index.html` file
 
 ```html
-<title>Nerdy Coder Clones</title>
-<meta name="description" content="Mint your Nerdy Coder Clone NFT" />
+<title>Slurry DAO Merch</title>
+<meta name="description" content="Good Luck!" />
 ```
 
 Also remember to update the short_name and name fields in the `public/manifest.json` file
